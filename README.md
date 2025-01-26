@@ -277,4 +277,4 @@ Based on the previous analysis, here are several recommendations for future deci
 
 3) Retention Programs: Establish retention programs for at-risk clients by focusing on personalized marketing campaigns. For these customers, the most popular category is furniture.
 
-4) Regular Customers: Regular customers are a valuable part of the company, being the second most profitable category. More feedback and engagement are necessary to record more buying patterns and convert them into loyal customers.
+4) Regular Customers: Regular customers are a valuable part of the company, being the second most profitable segment. More feedback and engagement are necessary to record more buying patterns and convert them into loyal customers.
