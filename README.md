@@ -161,7 +161,7 @@ FROM
 GROUP BY 2
 ORDER BY 1 DESC;
 ```
-Anlyzing which category is the most popular for each of the customers segments
+Analyzing which category is the most popular for each of the customers segments
 ```sql
 WITH Rfm AS (
     SELECT
@@ -256,3 +256,13 @@ FROM
 GROUP BY 2
 ORDER BY 1 DESC;
 ```
+# Recommendations and Findings:
+Based on the previous analysis, here are several recommendations for future decision-making:
+
+1) VIP Customers: VIP Customers are the most profitable segment in the company. Their most frequently purchased category is clothing, followed by electronics, with just five fewer purchases. Offering discounts and free clothing gifts with the purchase of an electronic item could be an effective strategy for retaining these valuable customers.
+ 
+2) Seasonal Profitability: The most profitable season is Spring with \$13,403. In contrast, the least profitable seasons are Monsoon, with a loss of \$13,249, and Summer, with a loss of \$6,957.
+
+3) Retention Programs: Establish retention programs for at-risk clients by focusing on personalized marketing campaigns. For these customers, the most popular category is furniture.
+
+4) Regular Customers: Regular customers are a valuable part of the company, being the second most profitable category. More feedback and engagement are necessary to record more buying patterns and convert them into loyal customers.
