@@ -69,7 +69,7 @@ ORDER BY 3 DESC
 LIMIT 10;
 ```
 3. Most Profitable States
-``slq
+```slq
 SELECT 
 lo.state,
 SUM(od.profit)
