@@ -118,7 +118,7 @@ SELECT
         Rfm_score DESC
 ```
 Categorizing Customers based in their RFM scores
-
+```sql
 WITH Rfm AS (
     SELECT
         lo.customer_name,
