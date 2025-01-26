@@ -69,7 +69,7 @@ ORDER BY 3 DESC
 LIMIT 10;
 ```
 ## Customer Segmentation
-3. How can we segment our customer based in a RFM scores to identify different costumer groups
+3. How can we segment our customer based on RFM scores to identify different groups
 
 Calculating RFM scores
 ```sql
