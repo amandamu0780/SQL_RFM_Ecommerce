@@ -68,8 +68,20 @@ GROUP BY 1,2
 ORDER BY 3 DESC
 LIMIT 10;
 ```
+3. Most Profitable States
+``slq
+SELECT 
+lo.state,
+SUM(od.profit)
+FROM order_details od
+JOIN list_orders lo
+ON od.order_id = lo.order_id
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 10;
+```
 ## Customer Segmentation
-3. How can we segment our customer based on RFM scores to identify different groups
+4. How can we segment our customer based on RFM scores to identify different groups
 
 Calculating RFM scores
 ```sql
